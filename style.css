@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+}
+
+.div{
+    background-color: blue;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto auto auto;
+    border-radius: 18px;
+    margin-top: 16px;
+    z-index: 2;
+    box-shadow: 2px 2px 2px 2px white;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: aliceblue;
+    background-color: blue;
+    font-size: 400%;
+}
+
