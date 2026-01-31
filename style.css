@@ -3,7 +3,7 @@
 }
 
 .div{
-    background-color: blue;
+    background-color: white;
     height: 95vh;
     width: 95vw;
     display: flex;
@@ -12,14 +12,15 @@
     border-radius: 18px;
     margin-top: 16px;
     z-index: 2;
-    box-shadow: 2px 2px 2px 2px white;
+    box-shadow: 2px 2px 24px 5px blue;
     justify-content: center;
     align-items: center;
 }
 
 .text{
-    color: aliceblue;
-    background-color: blue;
+    color: black;
+    background-color: white;
     font-size: 400%;
+    text-shadow: 2px 2px 2px blue;
 }
 
