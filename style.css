@@ -1,27 +1,11 @@
-*{
-    background-color: black;
-}
-
-.div{
-    background-color: white;
-    height: 95vh;
-    width: 95vw;
+.flex{
     display: flex;
-    flex-wrap: wrap;
-    margin: auto auto auto auto;
-    border-radius: 18px;
-    margin-top: 16px;
-    z-index: 2;
-    box-shadow: 2px 2px 24px 5px blue;
-    justify-content: center;
-    align-items: center;
 }
 
-.text{
-    color: black;
-    background-color: white;
-    font-size: 400%;
-    text-shadow: 2px 2px 2px blue;
-    text-align: center;
+.none{
+    display: none;
 }
 
+.block{
+    display: block;
+}

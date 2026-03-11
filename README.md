@@ -7,7 +7,8 @@ This is a simple table writer made with Javascript.
 - JS
 
 # How to use
-- Enter Table that you want
-- Enter table count how much you want
-- Click Result
+- Enter desire table
+- Click Next
+- Enter desire table count
+- Click See Result
 

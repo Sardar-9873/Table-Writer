@@ -9,8 +9,18 @@
 </head>
 
 <body>
-    <div class="div">
-        <h1 class="text">After entering values check in Devtool Console</h1>
+    <div id="table-wrapper" class="flex">
+        <input id="table" type="number" placeholder="Enter desire table">
+        <button id="table-next">Next</button>
+    </div>
+
+    <div id="table-count-wrapper" class="none">
+        <input id="table-count" type="number" placeholder="Enter desire table count">
+        <button id="table-count-next">See Result</button>
+    </div>
+
+    <div id="result-wrapper" class="none">
+        <p>Table you want:<br><span id="result"></span></p>
     </div>
     <script src="./app.js"></script>
 </body>
