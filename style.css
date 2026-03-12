@@ -68,3 +68,7 @@ display:block;
     max-height:250px;
     overflow-y:auto;
 }
+
+h1{
+    color: red;
+}

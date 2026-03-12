@@ -13,6 +13,8 @@ const tableCountNext = tableCountWrapper.querySelector("button");
 const resultWrapper = document.getElementById("result-wrapper");
 const resultEl = resultWrapper.querySelector("#result");
 
+const copyButton = document.getElementById("copy-button");
+
 function getUserTable(){
     const value = tableInput.value;
     whichTable = Number(value);
@@ -37,3 +39,10 @@ function generateTable(){
     }
     resultEl.innerText = wantedTable;   
 }
+
+function copyTable(){
+    const text = resultEl.innerText;
+    navigator.clipboard.writeText(text);
+    copyButton.innerText = "Copied ✓";
+}
+copyButton.addEventListener("click", copyTable);
