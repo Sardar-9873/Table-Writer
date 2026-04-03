@@ -33,11 +33,16 @@ function getUserTableCount(){
 tableCountNext.addEventListener("click" , getUserTableCount);
 
 function generateTable(){
+    if(isNaN(tableCount) || isNaN(whichTable)){
+        alert("Enter a number, if not then go and do your work.");
+        return;
+    }else{    
     for (let i = 1; i <= tableCount; i++) {
     const table = whichTable + " x " + i + " = " + i * whichTable;
     wantedTable += table + "\n\n";
     }
-    resultEl.innerText = wantedTable;   
+    resultEl.innerText = wantedTable;
+    }   
 }
 
 function copyTable(){
